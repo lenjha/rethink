@@ -1,0 +1,132 @@
+body {
+  font-size: 1rem;
+  background: #eeeeee;
+}
+
+.not-container {
+  padding: 15px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-fluid img {
+  max-width: 100%;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-weight: 250;
+  margin-bottom: 50px;
+  font-size: 1.9rem;
+}
+
+#desktop {
+  display: none;
+}
+
+.card img {
+  float: left;
+  margin: 10px;
+}
+
+.card-image {
+  width: 40%;
+}
+
+.card-title {
+  color: white;
+  margin-top: 20%;
+}
+
+#card-title {
+  font-size: 1.3rem;
+}
+
+.small {
+padding: 25px;
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+.holiday {
+  background-image: url(../img/shopper.jpg);
+}
+
+.season {
+  background-image: url(../img/shopping.jpg);
+}
+
+#article-tag {
+  font-size: 1rem;
+}
+
+.article-tag-sm {
+  color: gray;
+  font-size: .9em;
+  font-weight: lighter;
+}
+
+.material-icons {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .card-image {
+    width: 100%;
+    margin: 0 0 0 -10px;
+  }
+
+  .card-title {
+    margin-top: 25%;
+    font-weight: lighter;
+  }
+
+  #card-title {
+    width: 60%;
+  }
+  .card-content {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .content-text {
+    margin: 240px 10px 20px;
+  }
+
+}
+
+@media screen and (min-width:995px) {
+
+  .holiday, .season, .card {
+    height: 380px !important;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #desktop {
+    display: block;
+  }
+
+  #card-title {
+    width: 80%;
+  }
+
+  .content-text {
+    margin: 20% 0 0 0;
+    font-size: .9rem;
+  }
+
+  .article-tag-sm {
+    font-size: .7rem;
+  }
+
+}
